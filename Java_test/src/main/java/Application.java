@@ -7,9 +7,9 @@ public class Application {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         if (operation.equals("sum")) {
-            System.out.println("Result is: " + (a + b));
+            System.out.println("Result: " + (a + b));
         } else if (operation.equals("mul")) {
-            System.out.println("Result is: " + (a * b));
+            System.out.println("Result: " + (a * b));
 
         }
     }
